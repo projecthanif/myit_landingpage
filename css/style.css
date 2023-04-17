@@ -2,7 +2,26 @@
     margin: 0;
     padding: 0;
 }
-
+/* width */
+::-webkit-scrollbar {
+    /* width: 10px; */
+    height: 5px;
+  }
+  
+  /* Track
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } */
 body {
     font-family: sans-serif;
 }
@@ -24,26 +43,4 @@ hr {
         display: none;
     }
 
-}
-
-@media (min-width: 768px) {
-    .carousel-inner {
-        display: flex;
-    }
-
-    .carousel-item {
-        margin-right: 0;
-        flex: 0 0 25%;
-        display: block;
-    }
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    background-color: #5b1616;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
 }
